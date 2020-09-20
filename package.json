@@ -1,0 +1,38 @@
+{
+  "name": "game-updater",
+  "version": "1.0.0",
+  "description": "Game Updates Install Utility",
+  "main": "litepack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kusal-gunasekera/StateOfUs.git"
+  },
+  "keywords": [
+    "Game",
+    "Updater",
+    "State",
+    "of",
+    "Us"
+  ],
+  "author": "Kusal Gunasekera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kusal-gunasekera/StateOfUs/issues"
+  },
+  "homepage": "https://github.com/kusal-gunasekera/StateOfUs#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.16",
+    "colors": "^1.4.0",
+    "commander": "^6.1.0",
+    "object-hash": "^2.0.3",
+    "sha256-file": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-pkg-plugin-v4": "^2.0.4"
+  }
+}
